@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Colōrem</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="photos/C.png">
+</head>
+<body>
+      
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="photos/colorC.gif" width="170px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="cart.html">Backpack</a></li>
+                    </ul>
+                </nav>
+                <img src="photos/backpack.png" width="40px" height="40px">
+                <img src="photos/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+
+<!----- About Page ----->
+<div class="about-page">
+    <div class="container">
+        <div align="center">
+            <img src="photos/about.jpg"></img>   
+        </div>
+    </div>
+    <div class="about-us">
+                <div class="about">
+                    <h1> <center> ABOUT US </center></h1>
+                    <h2><center>Color Is  All  About  Skateboarding, The Madness And The Excitement Of Life In A Big City. <br>
+                        Launched In 2008 Right In The Middle Of The Greek Economic Meltdown , The Infamous Underground Skate Shop Of Downtown Athens, <br>
+                        Is The Proof That Where There Is A Will There Is A Way. <br>
+                        100% On Top Of Our Game And Always Here with Tons of Love For Absolutely Everyone. <br>
+                        
+                        7 Days A Week All Year Long  ,We Are Also The Ones To Blame For The Craziest Parties And Biggest Events Of The Greek Skateboarding Scene And Beyond.<br>
+                        Pour In The Mix The Most Charismatic Team Of Characters, On And Off The Damn Wood And You Might Get Close To The Idea.<br>
+                        You Are Always Always Welcome In.<br>
+                        
+                        Owned And  Operated Strictly By Skateboarders.<br>
+                        
+                        Since Today. Together We have it All.<br>
+                        
+                        Colōrem Team </center>
+                    </h2>
+                </div>
+    </div>
+</div>
+   
+
+
+
+<!-------- footer -------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Available for Android and iOS.</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="photos/C.png">
+                <p>Color Is  All  About  Skateboarding , The Madness And The Excitement Of Life In A Big City.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Return Policy</li>
+                    <li>Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+         </div>
+         <hr>
+         <p class="copyright">© Made by Dimitris Pergelidis</p>
+    </div>
+</div>
+
+<!------js script (toggle menu)------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.syle.maxHeight == "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+    
+</script>
+
+</body>
+</html>
